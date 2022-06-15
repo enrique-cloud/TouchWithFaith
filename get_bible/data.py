@@ -3,7 +3,7 @@ import requests
 import random
 
 
-books=["leviticus","hebrews","mark"]    # add more books
+books=["leviticus","hebrews","mark","luke","matthew","john","revelation","romans","numbers"]    # add more books
 version='valera' # asv, valera, there are more versions (lenguages)
 
 def bible(request):
