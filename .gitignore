@@ -1,8 +1,8 @@
 venv
 
-.replit
-
 __pycache__/
+
+.replit
 
 poetry.lock
 

@@ -14,13 +14,13 @@
 
     <div class="container p-5 text-light text-center">
 
-      <h1>Words</h1>
+      <h1 class="container p-5 text-light text-center">Words</h1>
 
       <div>{{ book }}</div>
       
-      <div>{{ chapter }} {{ vers }}</div>
+      <div>{{ chapter }} : {{ vers }}</div>
       
-      <div>{{ phrase }}</div>
+      <div class="container p-5 text-light text-center">{{ phrase }}</div>
       
       <div class="card card-body bg-dark text-center">
           <a class="btn btn-outline-primary" href="{{ request.get_full_path }}">Press With Faith</a>
