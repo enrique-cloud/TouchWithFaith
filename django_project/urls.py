@@ -16,9 +16,10 @@ Including another URLconf
 # from django.contrib import admin
 from django.urls import path
 # from touch import views
-from get_bible import optimized_data
+from get_bible import optimized_data, phrases
 
 urlpatterns = [
     # path('admin/', admin.site.urls),
-    path('', optimized_data.optimized_bible, name="home"),
+    path('', phrases.languages, name="home"),
+    path('phrases', optimized_data.optimized_bible, name="phrases"),
 ]
