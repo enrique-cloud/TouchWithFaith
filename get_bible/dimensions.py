@@ -1,7 +1,7 @@
 import requests
 
 
-books = ["ruth"]
+books = ["2samuel"]
 version = 'valera'
 
 summary_data= {}
@@ -20,3 +20,5 @@ summary_data["vers"] = aux
 
 
 print(summary_data)
+#: 'h=>: f'h
+#valera=>{lenguage}
