@@ -20,5 +20,5 @@ from get_bible import optimized_data
 
 urlpatterns = [
     # path('admin/', admin.site.urls),
-    path('', optimized_data.optimized_bible),
+    path('', optimized_data.optimized_bible, name="home"),
 ]
