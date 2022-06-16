@@ -1,7 +1,7 @@
 import requests
 
 
-books = ["philippians"]
+books = ["ruth"]
 version = 'valera'
 
 summary_data= {}
