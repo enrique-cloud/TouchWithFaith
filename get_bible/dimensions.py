@@ -1,7 +1,7 @@
 import requests
 
 
-books = ["2samuel"]
+books = ["ecclesiastes"]
 version = 'valera'
 
 summary_data= {}
