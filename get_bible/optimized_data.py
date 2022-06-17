@@ -12,6 +12,8 @@ def optimized_bible(request):
     language = "valera"
   if request.GET.get("idiom") == "asv":
     language = "asv"
+  if request.GET.get("idiom") == "ostervald":
+    language = "ostervald"
 
 
   books = [
@@ -28,10 +30,16 @@ def optimized_bible(request):
 ]
 
 
-  # c = 0
+  # b,c,v = 0,0,0
   # for i in books:
-  #   c += sum(i["vers"])
-  # print("Total vers so far: ", c)
+  #   b += 1
+  #   c += i["chapter"]
+  #   v += sum(i["vers"])
+    
+  # print("Total books so far: ", b)
+  # print("Total chapters so far: ", c)
+  # print("Total vers so far: ", v)
+  
   
   
   book = random.sample(books,1)[0]
