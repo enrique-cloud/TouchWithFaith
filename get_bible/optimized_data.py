@@ -67,7 +67,22 @@ def optimized_bible(request):
     {'book': 'galatians', 'url': f'https://getbible.net/json?passage=galatians&raw=true&version={language}', 'chapters': 6, 'vers': [24, 21, 29, 31, 26, 18]},
     {'book': 'ephesians', 'url': f'https://getbible.net/json?passage=ephesians&raw=true&version={language}', 'chapters': 6, 'vers': [23, 22, 21, 32, 33, 24]},
     {'book': 'philippians', 'url': f'https://getbible.net/json?passage=philippians&raw=true&version={language}', 'chapters': 4, 'vers': [30, 30, 21, 23]},
-    {'book': 'colossians', 'url': f'https://getbible.net/json?passage=colossians&raw=true&version={language}', 'chapters': 4, 'vers': [29, 23, 25, 18]}
+    {'book': 'colossians', 'url': f'https://getbible.net/json?passage=colossians&raw=true&version={language}', 'chapters': 4, 'vers': [29, 23, 25, 18]},
+    {'book': '1thessalonians', 'url': f'https://getbible.net/json?passage=1thessalonians&raw=true&version={language}', 'chapters': 5, 'vers': [10, 20, 13, 18, 28]},
+    {'book': '2thessalonians', 'url': f'https://getbible.net/json?passage=2thessalonians&raw=true&version={language}', 'chapters': 3, 'vers': [12, 17, 18]},
+    {'book': '1timothy', 'url': f'https://getbible.net/json?passage=1timothy&raw=true&version={language}', 'chapters': 6, 'vers': [20, 15, 16, 16, 25, 21]},
+    {'book': '2timothy', 'url': f'https://getbible.net/json?passage=2timothy&raw=true&version={language}', 'chapters': 4, 'vers': [18, 26, 17, 22]},
+    {'book': 'titus', 'url': f'https://getbible.net/json?passage=titus&raw=true&version={language}', 'chapters': 3, 'vers': [16, 15, 15]},
+    {'book': 'philemon', 'url': f'https://getbible.net/json?passage=philemon&raw=true&version={language}', 'chapters': 1, 'vers': [25]},
+    {'book': 'hebrews', 'url': f'https://getbible.net/json?passage=hebrews&raw=true&version={language}', 'chapters': 13, 'vers': [14, 18, 19, 16, 14, 20, 28, 13, 28, 39, 40, 29, 25]},
+    {'book': 'james', 'url': f'https://getbible.net/json?passage=james&raw=true&version={language}', 'chapters': 5, 'vers': [27, 26, 18, 17, 20]},
+    {'book': '1peter', 'url': f'https://getbible.net/json?passage=1peter&raw=true&version={language}', 'chapters': 5, 'vers': [25, 25, 22, 19, 14]},
+    {'book': '2peter', 'url': f'https://getbible.net/json?passage=2peter&raw=true&version={language}', 'chapters': 3, 'vers': [21, 22, 18]},
+    {'book': '1john', 'url': f'https://getbible.net/json?passage=1john&raw=true&version={language}', 'chapters': 5, 'vers': [10, 29, 24, 21, 21]},
+    {'book': '2john', 'url': f'https://getbible.net/json?passage=2john&raw=true&version={language}', 'chapters': 1, 'vers': [13]},
+    {'book': '3john', 'url': f'https://getbible.net/json?passage=3john&raw=true&version={language}', 'chapters': 1, 'vers': [14]},
+    {'book': 'jude', 'url': f'https://getbible.net/json?passage=jude&raw=true&version={language}', 'chapters': 1, 'vers': [25]},
+    {'book': 'revelation', 'url': f'https://getbible.net/json?passage=revelation&raw=true&version={language}', 'chapters': 22, 'vers': [20, 29, 22, 11, 14, 17, 17, 13, 21, 11, 19, 17, 18, 20, 8, 21, 18, 24, 21, 15, 27, 21]}
 ]
 
 
