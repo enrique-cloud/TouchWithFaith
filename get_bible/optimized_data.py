@@ -86,15 +86,15 @@ def optimized_bible(request):
 ]
 
 
-  b,c,v = 0,0,0
-  for i in books:
-    b += 1
-    c += i["chapters"]
-    v += sum(i["vers"])
+  # b,c,v = 0,0,0
+  # for i in books:
+  #   b += 1
+  #   c += i["chapters"]
+  #   v += sum(i["vers"])
     
-  print("Total books so far: ", b)
-  print("Total chapters so far: ", c)
-  print("Total vers so far: ", v)
+  # print("Total books so far: ", b)
+  # print("Total chapters so far: ", c)
+  # print("Total vers so far: ", v)
   
   
   
